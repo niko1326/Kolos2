@@ -1,0 +1,11 @@
+# Skip.txt - 10 ostatnich linii skryptu kolokwium.sh
+git commit -m "Test commit"
+
+# n. Wrzuc zmiany na zdalne repozytorium do galezi "Test"
+git push origin Test
+
+# o. Przelacz sie na galeź główną
+git checkout main
+
+# p. Wrzuc zmiany na zdalne repozytorium do galezi głównej (main albo master)
+git push origin main
